@@ -17,9 +17,9 @@ Semantic Web
 meta tag
 -----------
 - meta tag : escription, keywords, author, 기타 메타데이터 정의에 사용된다.  메타데이터는 브라우저, 검색엔진(keywords) 등에 의해 사용된다.
-    - <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript"> : SEO key keywords
-    - <meta name="description" content="Web tutorials on HTML and CSS"> : 웹페이지 설명
-    - <meta http-equiv="refresh" content="30"> : 웹페이지를 30초마다 refresh
+    - \<meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript"\> : SEO key keywords
+    - \<meta name="description" content="Web tutorials on HTML and CSS"\> : 웹페이지 설명
+    - \<meta http-equiv="refresh" content="30"\> : 웹페이지를 30초마다 refresh
 
 a tag
 -----------
@@ -39,13 +39,13 @@ form tag
 - type에 따라, 모양이 달라진다.
 - name 값을 attribute key, value 값을 attribute value로 하여 key=value 형태로 전송된다.
 
-''' html
+'''html
 <form action="http://~" method="get">
     <input type="" name="" value="">
 </form>
 '''
 
-(출처: https://poiemaweb.com)[https://poiemaweb.com]
+html 내용 출처는 https://poiemaweb.com 입니다.
 
 
 Django
