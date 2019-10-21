@@ -39,11 +39,11 @@ form tag
 - type에 따라, 모양이 달라진다.
 - name 값을 attribute key, value 값을 attribute value로 하여 key=value 형태로 전송된다.
 
-'''html  
+```html  
 <form action="http://~" method="get">
     <input type="" name="" value="">
 </form>
-'''
+```
 
 html 내용 출처는 https://poiemaweb.com 입니다.
 
