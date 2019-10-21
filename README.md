@@ -52,5 +52,9 @@ Django
 ==========
 1. 프로젝트 생성 후 최초 migrate
 2. 앱 생성
-3. 모델 작성 및 makemigrations, migrate  
+3. models.py 작성 및 makemigrations, migrate  
 (settings.py에 생성 앱 추가)
+4. shell에서 확인해보기 (from posts.models import Post)
+5. superuser 생성 및 admin.py에 Post 등록
+6. admin page 커스터마이징
+7. urls.py -> views.py -> html 흐름 생성 
