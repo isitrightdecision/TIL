@@ -58,5 +58,18 @@ Django
 5. superuser 생성 및 admin.py에 Post 등록
 6. admin page 커스터마이징
 7. urls.py -> views.py -> html 흐름 생성
-
-.. gitkraken 연동 테스트
+8. lovely app 추가 및 settings.py에 등록
+9. project의 url.py 수정, app의 views, templates 생성 및 수정
+10. include로 urls 분산화(lovely app 내 urls.py 생성, 작성)
+11. main.html에 링크 생성
+12. urls.py에 name 지정, main.html 링크 수정
+13. urls.py에 app_name 지정, main.html 링크 재수정
+14. settings.py에 templates의 경로를 추가
+15. MyFirstDjango/templates/에 base.html 생성
+16. base.html에 bootstrap cdn으로 복사
+17. base.html에 templaes 태그 추가({% block content %}등)
+18. main.html, first.html 등에 연결 ({% extends 'base.html' %})
+19. settings.py에 STATICFILES_DIRS 추가
+20. MyFirstDjango에 static 폴더를 비롯한 하위 폴더 및 파일 생성
+21. base.html에 {% load static %} 과 link tag 추가
+22. project.css에 시험 할 style 추가
