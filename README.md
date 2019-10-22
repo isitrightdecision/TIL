@@ -57,4 +57,6 @@ Django
 4. shell에서 확인해보기 (from posts.models import Post)
 5. superuser 생성 및 admin.py에 Post 등록
 6. admin page 커스터마이징
-7. urls.py -> views.py -> html 흐름 생성 
+7. urls.py -> views.py -> html 흐름 생성
+
+.. gitkraken 연동 테스트
