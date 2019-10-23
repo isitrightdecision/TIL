@@ -71,5 +71,8 @@ Django
 18. main.html, first.html 등에 연결 ({% extends 'base.html' %})
 19. settings.py에 STATICFILES_DIRS 추가
 20. MyFirstDjango에 static 폴더를 비롯한 하위 폴더 및 파일 생성
-21. base.html에 {% load static %} 과 link tag 추가
+21. base.html에 {% load static %} 과 <link rel="stylesheet" href="{% static 'css/project.css' %}"> 추가
 22. project.css에 시험 할 style 추가
+23. project의 templates/share/에 \_navbar.html 생성 (이름 무관)
+24. 재사용할 코드, html에 {% include 'share/\_navbar.html' %}로 호출
+25. 정적파일 이미지 삽입하기 {% load static %}, <img src="{% static 'img/gejang.jpg' %}" alt="간장게장">
