@@ -48,7 +48,7 @@ form tag
 html 내용 출처는 https://poiemaweb.com 입니다.
 
 
-Django
+Django basic
 ==========
 1. 프로젝트 생성 후 최초 migrate
 2. 앱 생성
